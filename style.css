@@ -1,0 +1,125 @@
+
+body {
+    background-color: white;
+    padding: 0;
+    height: auto;
+    width: 100%;
+}
+
+.calculator {
+    background-color: WhiteSmoke;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+}
+
+h1 {
+    line-height: 1.5;
+    margin-bottom: 0px !important;
+    margin-top: 0px !important;
+    font-size: 20px !important;
+    text-align: left;
+}
+
+h2 {
+    line-height: 1.5;
+    text-align: center;
+}
+
+h3, h4, h5 {
+    margin-bottom: 5px !important;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    font-size: larger;
+    display: block;
+    margin-bottom: 5px;
+    color: inherit;
+}
+
+input {
+    flex: 5;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid darkgray !important;
+    border-radius: 5px;
+}
+
+select {
+    flex: 2;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid darkgray !important;
+    border-radius: 5px;
+    background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10"%3E%3Cpath fill="none" stroke="%23333333" stroke-width="2" d="M1 3l4 4 4-4" /%3E%3C/svg%3E');
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 10px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.result {
+    padding: 10px;
+    border: 1px solid darkgray !important;
+    text-align: left;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid darkgray !important;
+}
+
+th, td {
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.clear-btn {
+    margin-left: 10px;
+    background-color: #f44336;
+    color: white;
+}
+
+.clear-btn:hover {
+    background-color: #e53935;
+}
+
+.row-button {
+    display: flex; 
+    justify-content: space-between; 
+    width: 100%;
+    margin-top: 15px;
+}
